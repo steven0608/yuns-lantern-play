@@ -1,0 +1,20 @@
+{
+ "_comment": "Tale page manifest. 'bg' is the backdrop. 'cast' is drawn and animated by the app from items/<item>.png, so each character stays tappable and can bob; 'hotspots' map taps onto a flat illustration instead, for bespoke art that cannot be layered. Coordinates are fractions of the page (x, y = centre). Set 'final': true when the art is real, not this template.",
+ "bg": "p4_bg.png",
+ "cast": [
+  {
+   "item": "yun",
+   "x": 0.3333,
+   "y": 0.6079,
+   "w": 0.201
+  },
+  {
+   "item": "lamp",
+   "x": 0.6667,
+   "y": 0.6199,
+   "w": 0.1508
+  }
+ ],
+ "hotspots": [],
+ "final": false
+}
