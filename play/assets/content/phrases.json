@@ -1,0 +1,655 @@
+{
+ "_comment": "Every non-noun line the app speaks. Nouns come from vocab.json. Keys map 1:1 to audio files at assets/audio/vo/{en|zh}/{key with dots as slashes}.mp3. Copy is final — record verbatim.",
+ "phrases": {
+  "number.1": {
+   "en": "one",
+   "zh": "一",
+   "pinyin": "yī"
+  },
+  "number.2": {
+   "en": "two",
+   "zh": "二",
+   "pinyin": "èr"
+  },
+  "number.3": {
+   "en": "three",
+   "zh": "三",
+   "pinyin": "sān"
+  },
+  "number.4": {
+   "en": "four",
+   "zh": "四",
+   "pinyin": "sì"
+  },
+  "number.5": {
+   "en": "five",
+   "zh": "五",
+   "pinyin": "wǔ"
+  },
+  "number.6": {
+   "en": "six",
+   "zh": "六",
+   "pinyin": "liù"
+  },
+  "number.7": {
+   "en": "seven",
+   "zh": "七",
+   "pinyin": "qī"
+  },
+  "number.8": {
+   "en": "eight",
+   "zh": "八",
+   "pinyin": "bā"
+  },
+  "number.9": {
+   "en": "nine",
+   "zh": "九",
+   "pinyin": "jiǔ"
+  },
+  "number.10": {
+   "en": "ten",
+   "zh": "十",
+   "pinyin": "shí"
+  },
+  "color.red": {
+   "en": "red",
+   "zh": "红色",
+   "pinyin": "hóng sè"
+  },
+  "color.orange": {
+   "en": "orange",
+   "zh": "橙色",
+   "pinyin": "chéng sè"
+  },
+  "color.yellow": {
+   "en": "yellow",
+   "zh": "黄色",
+   "pinyin": "huáng sè"
+  },
+  "color.green": {
+   "en": "green",
+   "zh": "绿色",
+   "pinyin": "lǜ sè"
+  },
+  "color.blue": {
+   "en": "blue",
+   "zh": "蓝色",
+   "pinyin": "lán sè"
+  },
+  "color.purple": {
+   "en": "purple",
+   "zh": "紫色",
+   "pinyin": "zǐ sè"
+  },
+  "color.pink": {
+   "en": "pink",
+   "zh": "粉色",
+   "pinyin": "fěn sè"
+  },
+  "color.brown": {
+   "en": "brown",
+   "zh": "棕色",
+   "pinyin": "zōng sè"
+  },
+  "color.white": {
+   "en": "white",
+   "zh": "白色",
+   "pinyin": "bái sè"
+  },
+  "color.black": {
+   "en": "black",
+   "zh": "黑色",
+   "pinyin": "hēi sè"
+  },
+  "shape.circle": {
+   "en": "circle",
+   "zh": "圆形",
+   "pinyin": "yuán xíng"
+  },
+  "shape.square": {
+   "en": "square",
+   "zh": "正方形",
+   "pinyin": "zhèng fāng xíng"
+  },
+  "shape.triangle": {
+   "en": "triangle",
+   "zh": "三角形",
+   "pinyin": "sān jiǎo xíng"
+  },
+  "shape.rectangle": {
+   "en": "rectangle",
+   "zh": "长方形",
+   "pinyin": "cháng fāng xíng"
+  },
+  "shape.semicircle": {
+   "en": "half circle",
+   "zh": "半圆形",
+   "pinyin": "bàn yuán xíng"
+  },
+  "size.tiny": {
+   "en": "tiny",
+   "zh": "很小",
+   "pinyin": "hěn xiǎo"
+  },
+  "size.small": {
+   "en": "small",
+   "zh": "小",
+   "pinyin": "xiǎo"
+  },
+  "size.medium": {
+   "en": "medium",
+   "zh": "中等",
+   "pinyin": "zhōng děng"
+  },
+  "size.large": {
+   "en": "big",
+   "zh": "大",
+   "pinyin": "dà"
+  },
+  "size.huge": {
+   "en": "huge",
+   "zh": "很大",
+   "pinyin": "hěn dà"
+  },
+  "category.food": {
+   "en": "food",
+   "zh": "食物",
+   "pinyin": "shí wù"
+  },
+  "category.animal": {
+   "en": "animals",
+   "zh": "动物",
+   "pinyin": "dòng wù"
+  },
+  "category.vehicle": {
+   "en": "things that go",
+   "zh": "交通工具",
+   "pinyin": "jiāo tōng gōng jù"
+  },
+  "category.toy": {
+   "en": "toys",
+   "zh": "玩具",
+   "pinyin": "wán jù"
+  },
+  "category.nature": {
+   "en": "outdoors",
+   "zh": "大自然",
+   "pinyin": "dà zì rán"
+  },
+  "category.clothing": {
+   "en": "things we wear",
+   "zh": "穿的东西",
+   "pinyin": "chuān de dōng xi"
+  },
+  "category.household": {
+   "en": "things at home",
+   "zh": "家里的东西",
+   "pinyin": "jiā lǐ de dōng xi"
+  },
+  "position.up": {
+   "en": "up high",
+   "zh": "上面",
+   "pinyin": "shàng mian"
+  },
+  "position.down": {
+   "en": "down low",
+   "zh": "下面",
+   "pinyin": "xià mian"
+  },
+  "position.inside": {
+   "en": "inside",
+   "zh": "里面",
+   "pinyin": "lǐ mian"
+  },
+  "position.outside": {
+   "en": "outside",
+   "zh": "外面",
+   "pinyin": "wài mian"
+  },
+  "position.front": {
+   "en": "in front",
+   "zh": "前面",
+   "pinyin": "qián mian"
+  },
+  "position.behind": {
+   "en": "behind",
+   "zh": "后面",
+   "pinyin": "hòu mian"
+  },
+  "position.ask": {
+   "en": "Where is it?",
+   "zh": "它在哪里？",
+   "pinyin": "tā zài nǎ lǐ?"
+  },
+  "matching.color": {
+   "en": "Put the same colors together.",
+   "zh": "把一样颜色的放在一起。",
+   "pinyin": "bǎ yí yàng yán sè de fàng zài yì qǐ."
+  },
+  "matching.shape": {
+   "en": "Put the same shapes together.",
+   "zh": "把一样形状的放在一起。",
+   "pinyin": "bǎ yí yàng xíng zhuàng de fàng zài yì qǐ."
+  },
+  "matching.category": {
+   "en": "Put the ones that go together, together.",
+   "zh": "把是一类的放在一起。",
+   "pinyin": "bǎ shì yí lèi de fàng zài yì qǐ."
+  },
+  "matching.size": {
+   "en": "Put the same sizes together.",
+   "zh": "把一样大小的放在一起。",
+   "pinyin": "bǎ yí yàng dà xiǎo de fàng zài yì qǐ."
+  },
+  "counting.ask": {
+   "en": "Can you give him this many?",
+   "zh": "你能给他这么多吗？",
+   "pinyin": "nǐ néng gěi tā zhè me duō ma?"
+  },
+  "counting.more": {
+   "en": "One more.",
+   "zh": "再来一个。",
+   "pinyin": "zài lái yí gè."
+  },
+  "counting.enough": {
+   "en": "That's just right!",
+   "zh": "刚刚好！",
+   "pinyin": "gāng gāng hǎo!"
+  },
+  "comparing.order_small_big": {
+   "en": "Line them up, small to big.",
+   "zh": "从小到大排好队。",
+   "pinyin": "cóng xiǎo dào dà pái hǎo duì."
+  },
+  "comparing.biggest": {
+   "en": "Which one is the biggest?",
+   "zh": "哪一个最大？",
+   "pinyin": "nǎ yí gè zuì dà?"
+  },
+  "comparing.smallest": {
+   "en": "Which one is the smallest?",
+   "zh": "哪一个最小？",
+   "pinyin": "nǎ yí gè zuì xiǎo?"
+  },
+  "shapes.intro": {
+   "en": "Every shape has its own home.",
+   "zh": "每个形状都有自己的家。",
+   "pinyin": "měi gè xíng zhuàng dōu yǒu zì jǐ de jiā."
+  },
+  "shapes.sort": {
+   "en": "Put each shape in its own hole.",
+   "zh": "把每个形状放进它自己的洞里。",
+   "pinyin": "bǎ měi gè xíng zhuàng fàng jìn tā zì jǐ de dòng lǐ."
+  },
+  "spotsame.intro": {
+   "en": "Which one looks exactly the same?",
+   "zh": "哪一个和它一模一样？",
+   "pinyin": "nǎ yí gè hé tā yì mú yí yàng?"
+  },
+  "puzzle.intro": {
+   "en": "A piece is missing. Which one fits?",
+   "zh": "少了一块。哪一块合适？",
+   "pinyin": "shǎo le yí kuài. nǎ yí kuài hé shì?"
+  },
+  "daynight.intro": {
+   "en": "Some things happen in the day, some at night.",
+   "zh": "有些事在白天，有些事在晚上。",
+   "pinyin": "yǒu xiē shì zài bái tiān, yǒu xiē shì zài wǎn shang."
+  },
+  "daynight.sort": {
+   "en": "Put each one where it belongs.",
+   "zh": "把每个放到它该去的地方。",
+   "pinyin": "bǎ měi gè fàng dào tā gāi qù de dì fang."
+  },
+  "daynight.either": {
+   "en": "This one can be either! You choose.",
+   "zh": "这个都可以！你来选。",
+   "pinyin": "zhè ge dōu kě yǐ! nǐ lái xuǎn."
+  },
+  "floatsink.intro": {
+   "en": "Drop something in and see what happens.",
+   "zh": "放一个进去，看看会怎么样。",
+   "pinyin": "fàng yí gè jìn qù, kàn kan huì zěn me yàng."
+  },
+  "floatsink.floats": {
+   "en": "It floats!",
+   "zh": "它浮起来了！",
+   "pinyin": "tā fú qǐ lái le!"
+  },
+  "floatsink.sinks": {
+   "en": "It sinks!",
+   "zh": "它沉下去了！",
+   "pinyin": "tā chén xià qù le!"
+  },
+  "whatisit.intro": {
+   "en": "What do you think it is?",
+   "zh": "你猜这是什么？",
+   "pinyin": "nǐ cāi zhè shì shén me?"
+  },
+  "pattern.intro": {
+   "en": "Look at the order they go in.",
+   "zh": "看看它们排的规律。",
+   "pinyin": "kàn kan tā men pái de guī lǜ."
+  },
+  "pattern.whatnext": {
+   "en": "What comes next?",
+   "zh": "接下来是什么？",
+   "pinyin": "jiē xià lái shì shén me?"
+  },
+  "mirror.intro": {
+   "en": "Make both sides match.",
+   "zh": "让两边一模一样。",
+   "pinyin": "ràng liǎng biān yì mú yí yàng."
+  },
+  "weather.sunny": {
+   "en": "a sunny day",
+   "zh": "晴天",
+   "pinyin": "qíng tiān"
+  },
+  "weather.rainy": {
+   "en": "a rainy day",
+   "zh": "雨天",
+   "pinyin": "yǔ tiān"
+  },
+  "weather.windy": {
+   "en": "a windy day",
+   "zh": "刮风天",
+   "pinyin": "guā fēng tiān"
+  },
+  "game.candles": {
+   "en": "Put this many candles on the cake.",
+   "zh": "在蛋糕上插这么多蜡烛。",
+   "pinyin": "zài dàn gāo shang chā zhè me duō là zhú."
+  },
+  "game.cookies": {
+   "en": "Give your friend this many cookies.",
+   "zh": "给小朋友这么多饼干。",
+   "pinyin": "gěi xiǎo péng you zhè me duō bǐng gān."
+  },
+  "game.seeds": {
+   "en": "Plant this many in the garden.",
+   "zh": "在花园里种这么多。",
+   "pinyin": "zài huā yuán lǐ zhòng zhè me duō."
+  },
+  "game.bus": {
+   "en": "Help this many friends onto the bus.",
+   "zh": "让这么多小朋友上车。",
+   "pinyin": "ràng zhè me duō xiǎo péng you shàng chē."
+  },
+  "game.tidy": {
+   "en": "Let's put everything where it belongs.",
+   "zh": "我们把东西放回家。",
+   "pinyin": "wǒ men bǎ dōng xi fàng huí jiā."
+  },
+  "game.weather": {
+   "en": "What do we need for each kind of day?",
+   "zh": "每种天气要带什么？",
+   "pinyin": "měi zhǒng tiān qì yào dài shén me?"
+  },
+  "game.feelings": {
+   "en": "Which face feels the same?",
+   "zh": "哪个表情和它一样？",
+   "pinyin": "nǎ gè biǎo qíng hé tā yí yàng?"
+  },
+  "game.socks": {
+   "en": "Find the one that matches.",
+   "zh": "找出一样的那个。",
+   "pinyin": "zhǎo chū yí yàng de nà gè."
+  },
+  "game.lantern": {
+   "en": "Find the lantern that looks just the same.",
+   "zh": "找一个一模一样的灯笼。",
+   "pinyin": "zhǎo yí gè yì mú yí yàng de dēng long."
+  },
+  "game.peekaboo": {
+   "en": "Someone is peeking. Who is it?",
+   "zh": "有人在偷看。是谁呀？",
+   "pinyin": "yǒu rén zài tōu kàn. shì shéi ya?"
+  },
+  "game.shadow": {
+   "en": "Whose shadow is this?",
+   "zh": "这是谁的影子？",
+   "pinyin": "zhè shì shéi de yǐng zi?"
+  },
+  "game.zoom": {
+   "en": "Look closely. What is it?",
+   "zh": "仔细看。这是什么？",
+   "pinyin": "zǐ xì kàn. zhè shì shén me?"
+  },
+  "game.ladder": {
+   "en": "Build the ladder, short to tall.",
+   "zh": "从矮到高搭梯子。",
+   "pinyin": "cóng ǎi dào gāo dā tī zi."
+  },
+  "game.stack": {
+   "en": "Stack them up, smallest first.",
+   "zh": "从最小的开始叠。",
+   "pinyin": "cóng zuì xiǎo de kāi shǐ dié."
+  },
+  "game.growing": {
+   "en": "Line them up, littlest to biggest.",
+   "zh": "从最小的排到最大的。",
+   "pinyin": "cóng zuì xiǎo de pái dào zuì dà de."
+  },
+  "game.routine": {
+   "en": "What do we do first?",
+   "zh": "我们先做什么？",
+   "pinyin": "wǒ men xiān zuò shén me?"
+  },
+  "game.beads": {
+   "en": "Which bead comes next?",
+   "zh": "下一颗珠子是什么？",
+   "pinyin": "xià yì kē zhū zi shì shén me?"
+  },
+  "game.lanterns_next": {
+   "en": "Which lantern comes next?",
+   "zh": "下一个灯笼是什么？",
+   "pinyin": "xià yí gè dēng long shì shén me?"
+  },
+  "game.flowers_next": {
+   "en": "Which one comes next on the path?",
+   "zh": "小路上下一个是什么？",
+   "pinyin": "xiǎo lù shang xià yí gè shì shén me?"
+  },
+  "game.hide": {
+   "en": "Listen. Where is your friend hiding?",
+   "zh": "听一听。小朋友藏在哪里？",
+   "pinyin": "tīng yi tīng. xiǎo péng you cáng zài nǎ lǐ?"
+  },
+  "game.treehouse": {
+   "en": "Which floor of the tree house?",
+   "zh": "在树屋的哪一层？",
+   "pinyin": "zài shù wū de nǎ yì céng?"
+  },
+  "game.table": {
+   "en": "Where does this one go?",
+   "zh": "这个该放在哪里？",
+   "pinyin": "zhè ge gāi fàng zài nǎ lǐ?"
+  },
+  "game.memory": {
+   "en": "Turn over two cards. Can you find two the same?",
+   "zh": "翻开两张牌。找到一样的吗？",
+   "pinyin": "fān kāi liǎng zhāng pái. zhǎo dào yí yàng de ma?"
+  },
+  "game.wordpairs": {
+   "en": "Turn a card and listen. Find the picture it names.",
+   "zh": "翻开一张听一听。找到它说的那张图。",
+   "pinyin": "fān kāi yì zhāng tīng yi tīng. zhǎo dào tā shuō de nà zhāng tú."
+  },
+  "game.families": {
+   "en": "Turn the cards. Find each baby animal's grown-up.",
+   "zh": "翻开牌。找到动物宝宝的妈妈。",
+   "pinyin": "fān kāi pái. zhǎo dào dòng wù bǎo bao de mā ma."
+  },
+  "game.shapepairs": {
+   "en": "Turn the cards. Find two with the same shape.",
+   "zh": "翻开牌。找到形状一样的两张。",
+   "pinyin": "fān kāi pái. zhǎo dào xíng zhuàng yí yàng de liǎng zhāng."
+  },
+  "game.snowman": {
+   "en": "Build the snowman, piece by piece.",
+   "zh": "一块一块，把雪人堆好。",
+   "pinyin": "yí kuài yí kuài, bǎ xuě rén duī hǎo."
+  },
+  "game.bridge": {
+   "en": "The bridge has a gap. Put the pieces back.",
+   "zh": "小桥缺了一段。把它补好。",
+   "pinyin": "xiǎo qiáo quē le yí duàn. bǎ tā bǔ hǎo."
+  },
+  "game.dragonboat": {
+   "en": "Put the dragon boat together: head, body and tail.",
+   "zh": "拼好龙舟：龙头、船身和龙尾。",
+   "pinyin": "pīn hǎo lóng zhōu: lóng tóu, chuán shēn hé lóng wěi."
+  },
+  "game.wings": {
+   "en": "One wing is waiting. Make both wings match.",
+   "zh": "还差一只翅膀。让两只翅膀一样。",
+   "pinyin": "hái chà yì zhī chì bǎng. ràng liǎng zhī chì bǎng yí yàng."
+  },
+  "game.papercut": {
+   "en": "Half the window flower is cut. Finish the other half.",
+   "zh": "窗花剪了一半。把另一半剪好。",
+   "pinyin": "chuāng huā jiǎn le yí bàn. bǎ lìng yí bàn jiǎn hǎo."
+  },
+  "game.lake": {
+   "en": "The lake shows everything upside down. Finish the reflection.",
+   "zh": "湖水把东西倒着照出来。把倒影补好。",
+   "pinyin": "hú shuǐ bǎ dōng xi dào zhe zhào chū lái. bǎ dào yǐng bǔ hǎo."
+  },
+  "game.firstwords": {
+   "en": "Listen. Which one is it?",
+   "zh": "听一听。是哪一个？",
+   "pinyin": "tīng yi tīng. shì nǎ yí gè?"
+  },
+  "game.colorwords": {
+   "en": "Listen for the color. Which one is it?",
+   "zh": "听颜色。是哪一个？",
+   "pinyin": "tīng yán sè. shì nǎ yí gè?"
+  },
+  "game.bodyparts": {
+   "en": "Listen. Which part is it?",
+   "zh": "听一听。是哪个部位？",
+   "pinyin": "tīng yi tīng. shì nǎ ge bù wèi?"
+  },
+  "game.numbersoutloud": {
+   "en": "Listen. Which one has this many?",
+   "zh": "听一听。哪一堆是这么多？",
+   "pinyin": "tīng yi tīng. nǎ yì duī shì zhè me duō?"
+  },
+  "feedback.success1": {
+   "en": "You did it!",
+   "zh": "你做到了！",
+   "pinyin": "nǐ zuò dào le!"
+  },
+  "feedback.success2": {
+   "en": "That's right!",
+   "zh": "对了！",
+   "pinyin": "duì le!"
+  },
+  "feedback.success3": {
+   "en": "Nice work!",
+   "zh": "真棒！",
+   "pinyin": "zhēn bàng!"
+  },
+  "feedback.success4": {
+   "en": "You found it!",
+   "zh": "你找到了！",
+   "pinyin": "nǐ zhǎo dào le!"
+  },
+  "feedback.retry1": {
+   "en": "Try another one.",
+   "zh": "试试别的。",
+   "pinyin": "shì shi bié de."
+  },
+  "feedback.retry2": {
+   "en": "Not that one. Keep looking!",
+   "zh": "不是这个。再找找！",
+   "pinyin": "bú shì zhè ge. zài zhǎo zhao!"
+  },
+  "feedback.hint1": {
+   "en": "Here, I'll help.",
+   "zh": "来，我帮你。",
+   "pinyin": "lái, wǒ bāng nǐ."
+  },
+  "feedback.hint2": {
+   "en": "Try this one.",
+   "zh": "试试这个。",
+   "pinyin": "shì shi zhè ge."
+  },
+  "ui.home": {
+   "en": "Let's play!",
+   "zh": "我们来玩吧！",
+   "pinyin": "wǒ men lái wán ba!"
+  },
+  "ui.again": {
+   "en": "Again?",
+   "zh": "再来一次？",
+   "pinyin": "zài lái yí cì?"
+  },
+  "ui.allDone": {
+   "en": "All done!",
+   "zh": "全部完成！",
+   "pinyin": "quán bù wán chéng!"
+  },
+  "ui.break": {
+   "en": "Let's take a break. See you soon!",
+   "zh": "我们休息一下。待会儿见！",
+   "pinyin": "wǒ men xiū xi yí xià. dāi huìr jiàn!"
+  },
+  "game.traceline": {
+   "en": "Put your finger on the light, and follow the dots.",
+   "zh": "把手指放在亮点上，沿着小点走。",
+   "pinyin": "bǎ shǒu zhǐ fàng zài liàng diǎn shàng, yán zhe xiǎo diǎn zǒu."
+  },
+  "game.traceshape": {
+   "en": "Follow the dots all the way around.",
+   "zh": "沿着小点走一圈。",
+   "pinyin": "yán zhe xiǎo diǎn zǒu yì quān."
+  },
+  "game.tracenumber": {
+   "en": "Follow the dots to draw the number.",
+   "zh": "沿着小点，把数字写出来。",
+   "pinyin": "yán zhe xiǎo diǎn, bǎ shù zì xiě chū lái."
+  },
+  "game.tracecharacter": {
+   "en": "Follow the dots. One line at a time.",
+   "zh": "沿着小点走，一笔一笔来。",
+   "pinyin": "yán zhe xiǎo diǎn zǒu, yì bǐ yì bǐ lái."
+  },
+  "game.traceletter": {
+   "en": "Follow the dots to draw the letter.",
+   "zh": "沿着小点，把字母写出来。",
+   "pinyin": "yán zhe xiǎo diǎn, bǎ zì mǔ xiě chū lái."
+  },
+  "game.trace": {
+   "en": "Follow the dots with your finger.",
+   "zh": "用手指沿着小点走。",
+   "pinyin": "yòng shǒu zhǐ yán zhe xiǎo diǎn zǒu."
+  },
+  "game.echodrums": {
+   "en": "Listen to the sounds. Then tap them back.",
+   "zh": "听一听这些声音。然后照着敲回来。",
+   "pinyin": "tīng yi tīng zhè xiē shēng yīn. rán hòu zhào zhe qiāo huí lái."
+  },
+  "game.fastslow": {
+   "en": "Some are fast and some are slow. Listen, then tap it back.",
+   "zh": "有的快，有的慢。听一听，然后敲回来。",
+   "pinyin": "yǒu de kuài, yǒu de màn. tīng yi tīng, rán hòu qiāo huí lái."
+  },
+  "game.highlow": {
+   "en": "A big low sound, a little high sound. Tap them back.",
+   "zh": "低低的大声音，高高的小声音。照着敲回来。",
+   "pinyin": "dī dī de dà shēng yīn, gāo gāo de xiǎo shēng yīn. zhào zhe qiāo huí lái."
+  },
+  "music.fast": {
+   "en": "Fast!",
+   "zh": "快！",
+   "pinyin": "kuài!"
+  },
+  "music.slow": {
+   "en": "Slow.",
+   "zh": "慢。",
+   "pinyin": "màn."
+  }
+ }
+}

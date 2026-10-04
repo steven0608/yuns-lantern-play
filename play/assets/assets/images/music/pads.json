@@ -1,0 +1,39 @@
+{
+ "_comment": "music_echo pads, low to high left to right. Each has a rest and a hit frame; show the hit frame for the length of the note. The order here is the pitch order — synthesis should follow it. draw_scale trends down left to right; drawn width does not, because the wood blocks are two objects side by side.",
+ "pads": [
+  {
+   "id": "drum",
+   "tint": "#D9534A",
+   "rest": "pad_drum.png",
+   "hit": "pad_drum_hit.png",
+   "pitch_rank": 1,
+   "draw_scale": 1.0
+  },
+  {
+   "id": "blocks",
+   "tint": "#C9965A",
+   "rest": "pad_blocks.png",
+   "hit": "pad_blocks_hit.png",
+   "pitch_rank": 2,
+   "draw_scale": 0.9
+  },
+  {
+   "id": "shaker",
+   "tint": "#79B45A",
+   "rest": "pad_shaker.png",
+   "hit": "pad_shaker_hit.png",
+   "pitch_rank": 3,
+   "draw_scale": 0.8
+  },
+  {
+   "id": "bell",
+   "tint": "#E8A93C",
+   "rest": "pad_bell.png",
+   "hit": "pad_bell_hit.png",
+   "pitch_rank": 4,
+   "draw_scale": 0.72
+  }
+ ],
+ "max_pads": 4,
+ "_cap_note": "A round is a round, so the <=6 cap applies. Four keeps the sequence short enough to hold."
+}
